@@ -193,13 +193,16 @@
 				TargetAttributes = {
 					E36E90C11EDD34700006FAD2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 					E36E90D51EDD34700006FAD2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = E36E90C11EDD34700006FAD2;
 					};
 					E36E90E01EDD34700006FAD2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = E36E90C11EDD34700006FAD2;
 					};
 				};
@@ -403,6 +406,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjvelez.HellooooWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjvelez.HellooooWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +430,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjvelez.HellooooWorldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellooooWorld.app/HellooooWorld";
 			};
 			name = Debug;
@@ -437,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjvelez.HellooooWorldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellooooWorld.app/HellooooWorld";
 			};
 			name = Release;
@@ -448,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjvelez.HellooooWorldUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HellooooWorld;
 			};
 			name = Debug;
@@ -459,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjvelez.HellooooWorldUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HellooooWorld;
 			};
 			name = Release;
@@ -482,6 +491,7 @@
 				E36E90EC1EDD34700006FAD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E36E90ED1EDD34700006FAD2 /* Build configuration list for PBXNativeTarget "HellooooWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +500,7 @@
 				E36E90EF1EDD34700006FAD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E36E90F01EDD34700006FAD2 /* Build configuration list for PBXNativeTarget "HellooooWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +509,7 @@
 				E36E90F21EDD34700006FAD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
